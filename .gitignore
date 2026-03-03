@@ -1,0 +1,9 @@
+# Vector database (built locally from docs/)
+.local-rag/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Node modules (for mcp-local-rag)
+node_modules/

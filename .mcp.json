@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "local-rag": {
+      "command": "npx",
+      "args": ["-y", "mcp-local-rag"],
+      "env": {
+        "BASE_DIR": "./docs",
+        "DB_PATH": "./.local-rag/lancedb"
+      }
+    }
+  }
+}
